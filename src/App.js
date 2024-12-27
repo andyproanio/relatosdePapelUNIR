@@ -15,7 +15,7 @@ const App = () => {
   return (
     <>
       {visible ? <div className='d-flex justify-content-center logo'>
-        <img src="/assets/images/logo.png" alt='Relatos de Papel'></img>
+        <img src="/assets/images/logo.PNG" alt='Relatos de Papel'></img>
       </div> : <MainComponent />}
     </>
   )
