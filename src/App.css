@@ -1,0 +1,44 @@
+* {
+  font-family: "Candara", serif;
+}
+
+.logo {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+.row-header {
+  margin: 0px auto;
+  padding: 0px auto;
+}
+
+h1 {
+  font-size: calc(2.375rem + 1.5vw);
+}
+
+a { 
+  color: inherit;
+  text-decoration: none; 
+}
+
+.icon {
+  margin-left: -45px;
+  margin-top: 5px;
+  z-index: 0;
+}
+
+.footer {
+  background-color: black;
+  margin: 0px auto;
+  padding: 0px auto;
+  color: floralwhite
+}
+
+.jumbotron {
+  padding: 70px 0px 70px 0px;
+  margin: 0px auto;
+  background: #D0031C;
+  color: floralwhite;
+}
